@@ -15,11 +15,11 @@ public class Main {
 
         // 3. それぞれ攻撃させる
         System.out.println("---勇者のターン---");
-        h.attack("Hero h");
-        h.run("Hero h");
+        h.attack(m1);
+        h.run();
 
         System.out.println("\n---魔法使いのターン---");
-        w.attack("Wizard w");
-        w.run("Wizard w");
+        w.attack(m2);
+        w.run();
     }
 }
