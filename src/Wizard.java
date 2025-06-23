@@ -1,3 +1,4 @@
-package kadai1;
+package kadai2;
 public class Wizard extends Character {
+
 }
